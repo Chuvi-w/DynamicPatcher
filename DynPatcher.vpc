@@ -1,0 +1,44 @@
+		$Folder	"DynPatcher"
+		{
+			$Folder	"Source Files"
+			{
+				$File	"$SRCDIR\public\DynPatcher\CDynPatcher.cpp"
+				{
+					$Configuration
+					{
+						$Compiler
+						{
+							$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+						}
+					}
+				}
+				
+				//$File	"$SRCDIR\public\DynPatcher\CImportTable.cpp"
+				//{
+				//	$Configuration
+				//	{
+				//		$Compiler
+				//		{
+				//			$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+				//		}
+				//	}
+				//}
+				$File	"$SRCDIR\public\DynPatcher\CSectionData.cpp"
+				{
+					$Configuration
+					{
+						$Compiler
+						{
+							$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+						}
+					}
+				}
+			}
+			$Folder "Header Files"
+			{
+				$File	"$SRCDIR\public\DynPatcher\CDynPatcher.h"
+				//$File	"$SRCDIR\public\DynPatcher\CImportTable.h"
+				$File	"$SRCDIR\public\DynPatcher\CSectionData.h"
+				$File	"$SRCDIR\public\DynPatcher\DynTypes.h"
+			}
+		}
